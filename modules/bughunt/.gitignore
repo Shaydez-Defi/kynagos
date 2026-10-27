@@ -1,0 +1,25 @@
+# Hunt / runtime artifacts (never commit)
+node_modules/
+poc/
+*.hex
+src.json
+selectors.txt
+.env
+out/
+cache/
+broadcast/
+txs.json
+app.html
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Foundry local
+lib/
+foundry.toml.bak
